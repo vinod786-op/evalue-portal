@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Evalue content portal is the **MERN stack**  Project,  is the website that create to perform various functionality like admin can add new employee in the database using the admin dashboard and also can add new project the project is assign to the employee automatically.
+also added functionality that if anyone wants to forgot password then they easily can do if they exists in the database or in the system.
 
-## Available Scripts
 
-In the project directory, you can run:
+## total modules
 
-### `npm start`
+1. admin
+2. employee
+3. publisher
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## screen shots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## follow  below 👇steps 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. first clone repo `https://github.com/vinod786-op/evalue-portal.git`
+2. go to `backend/db.js` 
+3. change `mongoURI` to your **local MONGO DB string or MONGO DB atlas**
+4. go to main folder and run code `npm -i` this will install all the **dependency**
+5. go to `backend` run code `npm -i`. > make sure that you go to backend folder first 
+6. install any *API client service* i am using **thunder client** in VS code.
+7. go to thunder client and paste this URL 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`localhost:5000/api/auth/createuser` request `POST`
+ in the header make sure to add `content-type` **application/json**
+ 
+ * **then**
+**add this on the body section** 
+`{
+    "name": "admin",
+    "email": "admin@gmail.com",
+    "password": "admin@123",
+    "role": "admin"
+}`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*remember the password because password will not save database in text format. it will save in the encrypted from using algorithm*
 
-### `npm run eject`
+**remember that:**  *in order to run project run command `npm start` to start front end, then go to  **`cd backend`** type code `nodemon start index.js`*
+in order run both **backend and frontend**  *backend run on `localhost: 5000` frontend: `localhost: 3000`*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+8. then login to the admin page go to `/login` and enter the email you entered. select role as **admin**, enter password you entered previous
+9. now you can access to the admin dashboard and can add **new user, delete user, edit user, add new project with file uploading** 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The project deploying under public is for the education purpose only. **code can re-useable**,  if you want to use in your local/personl project but it stricly prohibated  to use in **production level** if any found then they should trobule in legal
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
