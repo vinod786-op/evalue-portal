@@ -1,0 +1,42 @@
+.upload-section {
+    display: flex;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .drop-zone {
+    margin-bottom: 10px;
+    padding: 40px 10px;
+    height: inherit;
+    border: 2px dashed #e9ebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(0.24, 0.24, 0.24, 0.24) 3px 3px 4px;
+
+
+  }
+  
+  .image-preview {
+    height: inherit;
+    margin-left: 5%;
+    box-shadow: rgba(0.24, 0.24, 0.24, 0.24) 3px 3px 8px;
+
+  }
+  
+  .preview-image {
+    width: 100%;
+    height: inherit;
+    display: block;
+    margin-bottom: 10px;
+
+  }
+  
+  .preview-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+  }

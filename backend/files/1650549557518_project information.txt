@@ -1,0 +1,31 @@
+input receive , delivery(pdf,
+
+1 manager Admin
+job allocation, all detail,
+allocate job to employee,
+New project add,
+in progress
+
+2. Super Admin/Head of The Department
+1-billing
+2-provide user id and password
+3-add new employee/new user, user type(admin & production)
+4-remove user
+5-Complete Project Detail
+
+3) publisher Login
+-detail
+-user id 
+-password change
+-contact detail
+-track project
+
+4)employee login
+project allocation
+show which task to show to do
+only show detaill which he work
+deadline to complete to work
+job id
+and employee id
+
+5) Developer Login

@@ -1,0 +1,35 @@
+
+
+[
+        {
+        
+            "title": "Content Production",
+            "description": "We offer end-to-end content production services such as pre-editing, copyediting, typesetting, proofreading, image processing, and artwork creation, among others",
+            "urlToImage": "./images/content-production.gif"
+
+        },
+
+        {
+        
+            "title": "Content Transformation",
+            "description": "Technology has been evolving continuously and so have the standards to store and exchange content. The trend has created an ever-growing need to transform content from one standard to another. Every organization that deals in content may require one or the other form of transformation services to remain relevant in this competitive market",
+            "urlToImage": "./images/transformation.jpg"
+
+        },
+
+        {
+        
+            "title": "Content Enrichment",
+            "description": "With changing user habits and expanding mediums in which content could be consumed, the need for enrichment—adding abstracts, keywords, and indexes for ease of reading and search engine optimization, accessibility, interactivity (embedding responsive multimedia components), repurposing, and adaption—has been growing exponentially.",
+            "urlToImage": "./images/Enrichment.svg"
+
+        },
+
+        {
+        
+            "title": "Software Solutions for Content",
+            "description": "The ability to reassess one’s accomplishments and find new ways of doing things better using latest technologies is key to staying relevant in this everchanging world. That has been our strength in our own business and we would love to extend it to others, that is, our clients. We understand that not all clients would be keen on spending a lot upfront to get their businesses evaluated",
+            "urlToImage": "./images/software.jpg"
+        }
+       
+    ]

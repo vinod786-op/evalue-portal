@@ -1,0 +1,29 @@
+#notefound{
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    /* top: 50%; */
+    margin-top: 155px;
+}
+
+
+.notefound-404 h1{
+    opacity: 20%;
+    font-weight: 900;
+    font-size: 277px;
+    position: absolute;
+    /* left: 50%; */
+    /* top: 50%; */
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.notefound-404 h2{
+    font-family: sans-serif;
+    font: size 46px;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+}

@@ -1,0 +1,150 @@
+.nav-item{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* .navbar-nav .nav-link.active{
+  font-weight: bold;
+  border-bottom: 5px solid #fff15f;
+} */
+
+.nav-link:hover {
+  color: 2px solid #FFFFFF!important;
+  font-weight: bold;
+  border-bottom: 2px solid #fff15f;
+}
+
+.active {
+  color: rgb(241, 234, 234)!important;
+  font-weight: bold;
+  border-bottom: 2px solid #fff15f;
+
+}
+/* #header{
+  
+} */
+
+.BandTitle{
+  margin-top:75px;
+}
+
+.BrandStyle{
+  color: #ff4500;
+}
+
+.Textcenter{
+  text-align:left;
+  margin-top: 98px;
+  font-weight: 700;
+}
+
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+ 0% {
+   transform: translateY(10px);
+ } 
+ 100% {
+   transform: translateY(-10px);
+ }
+}
+
+.weOffers{
+font-weight: 700;
+color: #20247b;
+font-size: 45px;
+border-left: 5px solid #fc5356;
+padding: 4px 10px;
+text-transform: uppercase;
+margin-top: 20px;
+
+}
+
+
+div.Typewriter{
+  display: contents;
+}
+
+.Type-writing{
+  font-size:60px;
+  color: crimson;
+
+}
+
+.Typewriter__cursor {
+  color: crimson;
+  height: 2rem;
+  width: 2rem;
+}
+
+span.Typewriter__wrapper {
+  color: #ff4500;
+  font-weight: 700;
+}
+
+
+/* .......................................Fotteer selection start............................... */
+
+.footer{
+  padding: 5rem 0;
+  background-color: #182334;
+}
+
+a{
+  color: #f9f9fa;
+  text-decoration: none;
+}
+
+
+footer .main-hero-para {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+
+.Cform{
+  margin-top: 45px;
+}
+
+.Cform .form-control {
+  background: #eaedf0;
+  padding: 1rem 1rem;
+}
+
+
+     /* ..................Footer section....................... */
+
+div.Linkdin{
+  color: #0e76a8 ;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+div.Twitter{
+  color: #00acee  ;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+div.Facebook{
+  color: 	#4267B2 ;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+div.SocialLogo{
+  padding: 0 5rem;
+}
+
+                        /* ...............Footer section end............................. */
+
+
+
+
+
